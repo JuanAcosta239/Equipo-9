@@ -1,0 +1,76 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #FF3B30;
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+}
+
+
+.logogomarket {
+    background: url(Logo\ GoMarket.png) no-repeat center center;
+    background-size: contain; 
+    height: 100%; 
+    width: 250px; 
+    text-indent: -999px; 
+}
+
+.navitems {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navitems a {
+    text-decoration: none;
+    color: white;
+}
+
+.buscador {
+    font-size: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); /* Sombra más marcada */
+    height: 40px;
+    width: 100%;
+    padding: 10px 60px 10px 15px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+
+.search {
+    background: url(Search.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    text-indent: -999px;
+    border: none;
+
+}
+
+.logocarrito {
+    background: url(Carrito.png) no-repeat center center;
+    background-size: contain; 
+    height: 30px; 
+    width: 100px; 
+    text-indent: -999px;
+}
+
