@@ -1,28 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Estilos/Style.css">
+    <link rel="icon" href="Estilos/Logo GoMarket.png">
+    
+
+
 </head>
 <body>
     <header>
         <nav class="navbar">
             <a href="Home.html" class="logogomarket">GoMarket</a>
-            <input class="buscador" type="text" placeholder="Busca Productos, marcas y mas...">
+            <input class="buscador" type="text" placeholder="Busca Productos, marcas y más...">
             <button type="submit" class="search"></button>
             <ul class="navitems">
                 <li><a href="Home.html">Inicio</a></li>
                 <li><a href="Productos.html">Productos</a></li>
-                <li><a href="Contacto.html">Contactanos</a></li>
+                <li><a href="Contacto.html">Contáctanos</a></li>
                 <li><a href="Login.html">Ingresa</a></li>
-                <li><a href="Regristro.html">Registrate</a></li>
-                <a href="Carrito.html" class="logocarrito">Carrito</a>
+                <li><a href="Regristro.html">Regístrate</a></li>
+                <li><a href="Carrito.html" class="logocarrito"></a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Contenedor para centrar loginbox -->
 
+    <h1 class="loginh">Iniciar Sesión</h1>
+    <div class="centro-loginbox">
+        <div class="loginbox">
+            <form action="Home.html" method="post">
+                <h2 class="textcorreo">Correo Electrónico</h2>
+                <input class="logininput" type="email" placeholder="example@example.com" required> 
+                <h2 class="textpassword">Contraseña</h2>
+                <input class="logininput" type="password" placeholder="Contraseña" required>
+                <button type="submit" class="loginbutton">Iniciar Sesión</button>
+            </form>   
+            <a href="Recuperar.html" class="forgotpass">Olvidaste tu Contraseña?</a> 
+        </div>
+    </div>
+
+    <!-- CAJA DEL FOOTER -->
+
+
+    <footer class="generalfooter">
+
+        <div class="socialmedia">
+            <a href="instragram" class="socialig">Instagram</a>
+            <a href="x" class="x">X</a>
+            <a href="facebook" class="socialfacebook">facebook</a>
+        </div>
+        
+        <div class="categorias">
+            <ul class="categoriasitem">
+                <h2>Categorias</h2>
+                <li><a href="">Vehiculos</a></li>
+                <li><a href="">Muebles Y Hogar</a></li>
+                <li><a href="">Ropa Y Accesorios</a></li>
+                <li><a href="">Deportes</a></li>
+                <li><a href="">Tecnologia</a></li>
+                <li><a href="">Belleza</a></li>
+                <li><a href="">Entretenimiento</a></li>
+            </ul>
+
+        </div>
+
+        <div class="informacion">
+            <ul class="informacionitem">
+                <h2>Informacion</h2>
+                <li><a href="Home.html">Inicio</a></li>
+                <li><a href="">Buscar</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="">Politicas de provacidad</a></li>
+                <li><a href="">Politicas de envio</a></li>
+                <li><a href=""></a>Politicas de devolucion</li>
+                <li><a href=""></a>Terminos del servicio</li>
+            </ul>
+        </div>
+
+    </footer>
 </body>
 </html>

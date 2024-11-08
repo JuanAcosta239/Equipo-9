@@ -4,10 +4,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
 }
 
 .navbar {
-    background-color: #FF3B30;
+    background: url(Background\ White.jpg);
     width: 100%;
     padding: 20px;
     height: 150px;
@@ -18,7 +28,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
     border-radius: 50px;
 }
-
 
 .logogomarket {
     background: url(Logo\ GoMarket.png) no-repeat center center;
@@ -39,7 +48,7 @@
 
 .navitems a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .buscador {
@@ -47,7 +56,7 @@
     background-color: white;
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); /* Sombra más marcada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
     height: 40px;
     width: 100%;
     padding: 10px 60px 10px 15px;
@@ -56,21 +65,169 @@
 }
 
 .search {
-    background: url(Search.png) no-repeat center center;
+    background: url(Search\ Black.png) no-repeat center center;
     background-size: contain;
     width: 50px;
     height: 40px;
     margin-right: 10px;
     text-indent: -999px;
     border: none;
-
 }
 
 .logocarrito {
-    background: url(Carrito.png) no-repeat center center;
+    background: url(Carrito\ Black.png) no-repeat center center;
     background-size: contain; 
     height: 30px; 
     width: 100px; 
-    text-indent: -999px;
+    text-indent: -9999px; 
+    overflow: hidden;
+    display: inline-block; 
+    border: none;
+    padding: 0; 
 }
 
+/* Contenedor para centrar loginbox */
+
+.centro-loginbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+    margin-top: 1%;
+}
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 600px;  
+    width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    text-align: center; 
+    padding: 20px;  
+}
+
+.loginh {
+    margin: 80px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.textcorreo {
+    margin-top: 15%;
+    text-align: start;
+}
+
+.logininput {
+    margin-top: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    border-radius: 10px;
+    padding: 25px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.textpassword {
+    margin-top: 5%;
+    text-align: start;
+}
+
+.loginbutton {
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    padding: 7%;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    animation-delay: 10s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.forgotpass {
+    color: black;
+    margin-top: 10px;
+}
+
+
+/* ACA INICIAN LOS ESTILOS DEL FOOTER */
+
+.generalfooter {
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+    margin-top: 5%;    
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialig {
+    background: url(instagram.png) no-repeat center center;
+    background-size: contain; 
+    height: 30px; 
+    width: 100px; 
+    text-indent: -9999px; 
+    overflow: hidden;
+    display: inline-block; 
+    border: none;
+    padding: 0; 
+}
+
+.x{
+    background: url(X.png) no-repeat center center;
+    background-size: contain; 
+    height: 30px; 
+    width: 100px; 
+    text-indent: -9999px; 
+    overflow: hidden;
+    display: inline-block; 
+    border: none;
+    padding: 0; 
+}
+
+.socialfacebook{
+    background: url(Facebook.png) no-repeat center center;
+    background-size: contain; 
+    height: 30px; 
+    width: 100px; 
+    text-indent: -9999px; 
+    overflow: hidden;
+    display: inline-block; 
+    border: none;
+    padding: 0;    
+}
+
+.categoriasitem li {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   height: 100%;
+}
+
+.informacionitem li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 100%;
+}
