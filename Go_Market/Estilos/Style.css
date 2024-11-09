@@ -86,7 +86,7 @@ body {
     padding: 0; 
 }
 
-/* Contenedor para centrar loginbox */
+/*Estilos del login*/
 
 .centro-loginbox {
     display: flex;
@@ -159,6 +159,239 @@ body {
 }
 
 
+/* Estilos de la pagina de registo */
+
+.centro-loginboxreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+    margin-top: 1%;
+}
+
+.loginboxreg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 600px;  
+    width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    text-align: center; 
+    padding: 20px;  
+}
+
+.loginhreg {
+    margin: 80px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.textcorreoreg {
+    margin-top: 5%;
+    text-align: start;
+}
+
+.logininputreg {
+    margin-top: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    border-radius: 10px;
+    padding: 25px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.textpasswordreg {
+    margin-top: 5%;
+    text-align: start;
+}
+
+.loginbuttonreg {
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    padding: 7%;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    animation-delay: 10s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.forgotpassreg {
+    color: black;
+    margin-top: 10px;
+}
+
+/* ESTILOS DEL FORMULARIO DE CONTACTO */
+
+.centro-loginboxCONT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+    margin-top: 1%;
+}
+
+.loginboxCONT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 600px;  
+    width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    text-align: center; 
+    padding: 20px;  
+}
+
+.loginhCONT{
+    margin: 80px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.textcorreoCONT {
+    margin-top: 5%;
+    text-align: start;
+}
+
+.logininputCONT {
+    margin-top: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    border-radius: 10px;
+    padding: 25px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.inputCONT {
+
+    margin-top: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    border-radius: 10px;
+    padding: 35px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.textpasswordCONT {
+    margin-top: 5%;
+    text-align: start;
+}
+
+.loginbuttonCONT {
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    padding: 7%;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    animation-delay: 10s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.forgotpassCONT{
+    color: black;
+    margin-top: 10px;
+}
+
+
+/* ESTILOS DE LA PAGINA DE RECUPERACION DE CONTRASEÑA */
+
+
+.centro-recoverybox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+    margin-top: 1%;
+}
+
+.loginboxREC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffff;
+    height: 400px;  
+    width: 400px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    text-align: center; 
+    padding: 20px;  
+}
+
+.loginhREC{
+    margin: 80px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.textcorreoREC {
+    margin-top: 15%;
+    text-align: start;
+}
+
+.inputRec {
+    margin-top: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    border-radius: 10px;
+    padding: 25px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.ChangeREC{
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    padding: 3%;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    animation-delay: 10s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.CancelarRec {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    color: black;
+    margin-top: 1%;
+    background-color: rgb(221, 220, 220);
+    padding: 3%;
+    border-radius: 5px ;
+}
+
+
+
 /* ACA INICIAN LOS ESTILOS DEL FOOTER */
 
 .generalfooter {
@@ -173,6 +406,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
+
+
+.generalfooter a {
+    color: black;
+}
+
 
 .socialmedia {
     display: flex;
@@ -192,6 +431,7 @@ body {
     padding: 0; 
 }
 
+
 .x{
     background: url(X.png) no-repeat center center;
     background-size: contain; 
@@ -203,6 +443,7 @@ body {
     border: none;
     padding: 0; 
 }
+
 
 .socialfacebook{
     background: url(Facebook.png) no-repeat center center;
@@ -216,6 +457,7 @@ body {
     padding: 0;    
 }
 
+
 .categoriasitem li {
    display: flex;
    flex-direction: column;
@@ -224,6 +466,7 @@ body {
    height: 100%;
 }
 
+
 .informacionitem li {
     display: flex;
     flex-direction: column;
@@ -231,3 +474,4 @@ body {
     margin-top: 20px;
     height: 100%;
 }
+
