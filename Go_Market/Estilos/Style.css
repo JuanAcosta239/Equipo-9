@@ -3,18 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
     text-decoration: none;
+    font-family: Host Grotesk;
 }
 
-
+.host-grotesk{
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
+    min-height: 100vh;
     margin: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    background: linear-gradient(to bottom, #ff0000d7 0%, #ffffff 50%, transparent 30%);
 }
+
+.headon {
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+
+#loginbutton {
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+padding: 2%;
+background-color: #ececec;
+}
+
+#regbutton {
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+padding: 2%;
+background-color: #ff0000;
+}
+
 
 .navbar {
     background: url(Background\ White.jpg);
@@ -26,7 +52,6 @@ body {
     align-items: center;
     gap: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
-    border-radius: 50px;
 }
 
 .logogomarket {
@@ -114,7 +139,6 @@ body {
     font-size: 50px;
     justify-content: center;
     text-align: center;
-    
 }
 
 .textcorreo {
@@ -214,7 +238,7 @@ body {
 
 .loginbuttonreg {
     width: 100%;
-    background-color: red;
+    background-color: #ff0000;
     border-radius: 10px;
     padding: 7%;
     border: none;
@@ -300,9 +324,9 @@ body {
 
 .loginbuttonCONT {
     width: 100%;
-    background-color: red;
+    background-color: #ff0000;
     border-radius: 10px;
-    padding: 7%;
+    padding: 5%;
     border: none;
     margin-bottom: 30px;
     text-align: center;
@@ -369,7 +393,7 @@ body {
 
 .ChangeREC{
     width: 100%;
-    background-color: red;
+    background-color: #ff0000;
     border-radius: 10px;
     padding: 3%;
     border: none;
@@ -385,7 +409,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
     color: black;
     margin-top: 1%;
-    background-color: rgb(221, 220, 220);
+    background-color: #ececec;
     padding: 3%;
     border-radius: 5px ;
 }
@@ -405,6 +429,7 @@ body {
     gap: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+    background-color: white;
 }
 
 

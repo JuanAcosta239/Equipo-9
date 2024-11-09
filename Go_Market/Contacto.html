@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Estilos/Style.css">
+    <link rel="icon" href="Estilos/Logo GoMarket.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,8 +20,8 @@
                 <li><a href="Home.html">Inicio</a></li>
                 <li><a href="Productos.html">Productos</a></li>
                 <li><a href="Contacto.html">Contactanos</a></li>
-                <li><a href="Login.html">Ingresa</a></li>
-                <li><a href="Regristro.html">Registrate</a></li>
+                <li id="loginbutton"><a href="Login.html">Ingresa</a></li>
+                <li id="regbutton"><a href="Regristro.html">Registrate</a></li>
                 <a href="Carrito.html" class="logocarrito">Carrito</a>
             </ul>
         </nav>
@@ -27,8 +31,9 @@
 
 
 
-    <h1 class="loginhCONT">Escribenos</h1>
+    
     <div class="centro-loginboxCONT">
+        <h1 class="loginhCONT">Escribenos</h1>
         <div class="loginboxCONT">
             <form action="Home.html" method="post">
                 <h2 class="textcorreoCONT">Nombre De Usuario</h2>
@@ -39,7 +44,7 @@
                 <input class="logininputCONT" type="tel" placeholder="+57 (3333-333-333)" required> 
                 <h2 class="textpasswordCONT">Mensaje</h2>
                 <input class="inputCONT" type="text" placeholder="" required>
-                <button type="submitCONT" class="loginbutton">Enviar</button>
+                <button type="submitCONT" class="loginbuttonCONT">Enviar</button>
             </form>  
             <a href="Login.html" class="forgotpassCONT">Ya tienes cuemta?, Inicia Sesion Aqui</a> 
         </div>
