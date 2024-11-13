@@ -10,7 +10,7 @@
 .host-grotesk{
   font-family: "Host Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -69,12 +69,39 @@ background-color: #ff0000;
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
-.navitems a {
+.navitems li{
+    list-style: none;
+    padding: 0 20 px;
+    position: relative;
+
+}
+
+.navitems li a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
 }
+
+.navitems li a:hover,
+.navitems li a.active {
+    color: #088178;
+}
+
+.navitems li a.active::after,
+.navitems li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} 
 
 .buscador {
     font-size: 16px;
@@ -183,7 +210,7 @@ background-color: #ff0000;
 }
 
 
-/* Estilos de la pagina de registo */
+/* Estilos de la pagina de registro */
 
 .centro-loginboxreg{
     display: flex;
@@ -341,9 +368,136 @@ background-color: #ff0000;
     margin-top: 10px;
 }
 
+/*Estilos página productos*/
+.section-p1{
+    padding: 40px 80px;
+}
+.navbarcategorias {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    height: 50px;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.navitemscategorias {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15%;
+    margin: 0;
+    list-style: none;
+}
+
+.navitemscategorias li{
+    list-style: none;
+    padding: 0 20 px;
+    position: relative;
+
+}
+
+.navitemscategorias li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navitemscategorias li a:hover,
+.navitemscategorias li a.active {
+    color: #088178;
+}
+
+.navitemscategorias li a.active::after,
+.navitemscategorias li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} 
+
+.pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30 px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.pro:hover{
+    box-shadow: 20px 20px 30 px rgba(0, 0, 0, 0.6);
+}
+
+.pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+.pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+.pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.pro .des i{
+    font-size: 12px;
+    color: rgb(243,181, 25);
+}
+
+.pro .des h4{
+    padding-top: 7px;
+    color: #088178;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
 
 /* ESTILOS DE LA PAGINA DE RECUPERACION DE CONTRASEÑA */
-
 
 .centro-recoverybox {
     display: flex;
