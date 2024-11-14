@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Producto</title>
-    <link rel="stylesheet" href="Estilos/productosPrueba.css">
+    <link rel="stylesheet" href="Estilos/Style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">B</div>
-        <nav class="nav">
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Contacto</a>
-            <button class="btn-ingresa">Ingresa</button>
-            <button class="btn-registro">Registro</button>
+    <header>
+        <div class="headon">
+            <h1>GO MARKET</h1>
+            <h2>Compra fácil, recibe rápido</h2>
+        </div>
+
+        <nav class="navbar">
+            <a href="Home.html" class="logogomarket">GoMarket</a>
+            <input class="buscador" type="text" placeholder="Busca Productos, marcas y mas...">
+            <button type="submit" class="search"></button>
+            <ul class="navitems">
+                <li><a href="Home.html">Inicio</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="Contacto.html">Contactanos</a></li>
+                <li id="loginbutton"><a href="Login.html">Ingresa</a></li>
+                <li id="regbutton"><a href="Regristro.html">Registrate</a></li>
+                <a href="Carrito.html" class="logocarrito">Carrito</a>
+            </ul>
         </nav>
     </header>
 
@@ -31,6 +41,8 @@
                 <label for="color">Color</label>
                 <select id="color">
                     <option value="negro">Negro</option>
+                    <option value="azul">Azul</option>
+                    
                 </select>
                 <button class="btn-comprar">Comprar</button>
                 <p class="description">
@@ -81,49 +93,7 @@
                     <p><strong>Andrés Jiménez</strong></p>
                     <p>09/12/2023</p>
                 </div>
-            </div>
-
-            <div class="review-cards">
-                <div class="review-card">
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9734;</span>
-                        <span class="star">&#9734;</span> <!-- Estrella vacía -->
-                    </div>
-                    <h3>Es útil</h3>
-                    <p>Excelente y satisfecha hasta el momento</p>
-                    <p><strong>Adriana Meza</strong></p>
-                    <p>02/11/2024</p>
-                </div>
-                <div class="review-card">
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9734;</span>
-                        <span class="star">&#9734;</span> <!-- Estrella vacía -->
-                    </div>
-                    <h3>Perfecta</h3>
-                    <p>La mejor cámara que he comprado</p>
-                    <p><strong>Alfonso Rendón</strong></p>
-                    <p>18/03/2019</p>
-                </div>
-                <div class="review-card">
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9734;</span>
-                        <span class="star">&#9734;</span> <!-- Estrella vacía -->
-                    </div>
-                    <h3>Buen precio</h3>
-                    <p>Cumple con las expectativas</p>
-                    <p><strong>Andrés Jiménez</strong></p>
-                    <p>09/12/2023</p>
-                </div>
-            </div>
+            </div>            
         </section>
 
         <section class="newsletter">
@@ -133,18 +103,40 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-logo">B</div>
-        <div class="footer-links">
-            <div>
-                <h4>Categorías</h4>
-                <p>Vehículos, Muebles y Hogar, Ropa, Deportes...</p>
-            </div>
-            <div>
-                <h4>Información</h4>
-                <p>Inicio, Buscar, Contacto, Políticas de Privacidad...</p>
-            </div>
+    <footer class="generalfooter">
+
+        <div class="socialmedia">
+            <a href="instragram" class="socialig">Instagram</a>
+            <a href="x" class="x">X</a>
+            <a href="facebook" class="socialfacebook">facebook</a>
         </div>
+        
+        <div class="categorias">
+            <ul class="categoriasitem">
+                <h2>Categorias</h2>
+                <li><a href="">Vehículos</a></li>
+                <li><a href="">Muebles Y Hogar</a></li>
+                <li><a href="">Ropa Y Accesorios</a></li>
+                <li><a href="">Deportes</a></li>
+                <li><a href="">Tecnología</a></li>
+                <li><a href="">Belleza</a></li>
+                <li><a href="">Entretenimiento</a></li>
+            </ul>
+        </div>
+
+        <div class="informacion">
+            <ul class="informacionitem">
+                <h2>Información</h2>
+                <li><a href="Home.html">Inicio</a></li>
+                <li><a href="">Buscar</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="">Políticas de Privacidad</a></li>
+                <li><a href="">Políticas de Envío</a></li>
+                <li><a href=""></a>Políticas de Devolución</li>
+                <li><a href=""></a>Términos del Servicio</li>
+            </ul>
+        </div>
+
     </footer>
 </body>
 </html>

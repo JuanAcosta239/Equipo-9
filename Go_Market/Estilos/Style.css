@@ -654,3 +654,184 @@ background-color: #ff0000;
     height: 100%;
 }
 
+/* Estilo Descripcion de productos DP
+---------------------------------------------------------------------------------------- */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 10rem;
+    width: 100%;
+    /* background-color: #12046e; */
+}
+
+.product-detail {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.product-info {
+    flex: 2;
+}
+
+.product-info h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.product-tag {
+    display: inline-block;
+    background-color: #d4f1d4;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    color: #2a7c2a;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.product-price {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.product-desc {
+    margin-bottom: 1.5rem;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-comprar {
+    background-color: #44825c;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #333;
+}
+
+.description {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    color: #555;
+}
+
+.reviews {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 100vh;
+    background-color: #000; */
+}
+
+.reviews h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.reviews .review-cards {
+    display: flex; /* Los <div> estarán en una fila */
+    gap: 40px; /* Espacio entre los <div> */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    
+}
+
+.review-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;    
+    text-align: left;
+    flex: 1;
+    min-width: 150px;
+}
+
+.rating {
+    font-size: 24px;
+    color: #ff9900; /* Color dorado para las estrellas */
+}
+
+.star {
+    margin-right: 5px;
+}
+
+.review-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.newsletter {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 3rem;
+}
+
+.newsletter input {
+    padding: 0.75rem;
+    width: 60%;
+    max-width: 400px;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.newsletter .btn-suscribir {
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------------------- */
