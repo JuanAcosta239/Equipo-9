@@ -1,4 +1,4 @@
-const tasaDeCambio = 4403;
+const tasaDeCambio = 4400;
 
 const vehiculos = [
     {
@@ -128,7 +128,7 @@ function crearTarjetas() {
             <p><strong>Precio:</strong> $${precioUsdFormateado} USD / $${precioCopFormateado} COP</p>
             <p><strong>Caballos de fuerza:</strong> ${vehiculo.caballos_de_fuerza}</p>
             <button class="btn-agregar" data-id="${vehiculo.id}">Agregar al carrito</button>
-        `;
+            `;
         
         contenedor.appendChild(tarjeta);
     });
