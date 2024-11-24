@@ -611,16 +611,17 @@ background-color: #f7931a;
 
 .generalfooter {
     padding: 1%;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-right: 20%;
     margin-bottom: 0%;
-    margin-top: 5%;    
+    margin-top: 3%;    
     display: flex;
     flex-direction: row;
     gap: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     background-color: white;
+    width: 90%;
 }
 
 
@@ -914,4 +915,108 @@ background-color: #f7931a;
     font-weight: bold;
     font-size: 1.1em;
     color: #2c3e50; 
+}
+
+
+/* Archivo: style_Home  DiegoParada */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.offers {
+    /* background-color: #a59595; */
+    padding: 20px;
+    text-align: center;
+}
+
+.offer-banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    max-width: 100%;
+    overflow: hidden;
+} 
+.offer-banner  img {
+    max-width: 90%; 
+    height: auto; 
+    object-fit: contain;
+    border-radius: 5px; 
+}
+
+.black-full {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+padding: 20px;
+/* background-color: #fff; */
+}
+
+.card {
+background-color: #f3ecea;
+border-radius: 10px;
+text-align: center;
+padding: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s;
+}
+
+.card:hover {
+transform: scale(1.05); /* Efecto hover */
+}
+
+.card h3 {
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+color: #000;
+}
+
+.card-content {
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 200px;
+}
+
+.discount {
+background-color: #000;
+color: #fff;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+width: 25%;
+margin-bottom: 15px;
+}
+
+.discount p {
+margin: 0;
+height: 40px;
+width: 30px;
+margin-left: 1px;
+text-align: center;
+}
+
+.discount .percentage {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.card img {
+width: 70%;
+height: auto;
+border-radius: 5px;
+margin-left: 15px;
+height: 180px;
 }
