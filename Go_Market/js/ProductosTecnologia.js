@@ -1,5 +1,7 @@
 const tasaDeCambio = 4400;
 
+
+
 const productosTecnologia = [
     {
         "id": 1,
