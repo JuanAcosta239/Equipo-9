@@ -175,7 +175,7 @@ background-color: #f7931a;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%; 
+    height: 10%; 
     margin-top: 1%;
 }
 
@@ -184,7 +184,7 @@ background-color: #f7931a;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 600px;  
+    height: 420px;  
     width: 500px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px; 
@@ -319,7 +319,7 @@ background-color: #f7931a;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%; 
+    height: 15%; 
     margin-top: 1%;
 }
 
@@ -328,12 +328,12 @@ background-color: #f7931a;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 600px;  
+    height: 650px;  
     width: 500px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px; 
     text-align: center; 
-    padding: 20px;  
+    padding: 10px;  
 }
 
 .loginhCONT{

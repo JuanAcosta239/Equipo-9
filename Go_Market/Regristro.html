@@ -19,7 +19,7 @@
             <ul class="navitems">
                 <li><a href="Home.html">Inicio</a></li>
                 <li><a href="Productos.html">Productos</a></li>
-                <li><a href="Contacto.html">Contactanos</a></li>
+                <li><a href="Contacto.html">Contáctanos</a></li>
                 <li id="loginbutton"><a href="Login.html">Ingresar</a></li>
                 <li id="regbutton"><a href="Regristro.html">Registrate</a></li>
                 <a href="Carrito.html" class="logocarrito"><span id="Cuenta-Carrito">0</span></a>
@@ -32,20 +32,22 @@
     <div class="centro-loginboxreg">
         <h1 class="loginhreg">Registrate</h1>
         <div class="loginboxreg">
-            <form action="Home.html" method="post">
-                <h2 class="textcorreoreg">Nombre de Usuario</h2>
-                <input class="logininputreg" type="text" placeholder="Nombre de usuario" required> 
-                <h2 class="textpasswordreg">Correo Electrónico</h2>
-                <input class="logininputreg" type="email" placeholder="Example@example.com" required>
-                <h2 class="textcorreoreg">Contraseña</h2>
-                <input class="logininputreg" type="password" placeholder="Contraseña" required> 
-                <h2 class="textpasswordreg">Confirmar Contraseña</h2>
-                <input class="logininputreg" type="password" placeholder="Confirmar Contraseña" required>
-                <button type="submitreg" class="loginbutton">Registrarse</button>
+            <form action="Login.html" method="post" id="register-form">
+                <label for="username" class="textcorreoreg">Nombre de Usuario</label>
+                <input class="logininputreg" id="username" type="text" placeholder="Nombre de usuario" required> 
+                <label for="email" class="textpasswordreg">Correo Electrónico</label>
+                <input class="logininputreg" type="email" id="email" placeholder="Example@example.com" required>
+                <label for="password" class="textcorreoreg">Contraseña</label>
+                <input class="logininputreg" type="password" id="password" placeholder="Contraseña" required> 
+                <label for="confirm-password" class="textpasswordreg">Confirmar Contraseña</label>
+                <input class="logininputreg" type="password" id="confirm-password" placeholder="Confirmar Contraseña" required>
+                <button type="button" class="loginbutton" id="register-btn" >Registrarse</button>
             </form>  
-            <a href="Login.html" class="forgotpassreg">Ya tienes una cuenta?, Inicia Sesión Aquí</a> 
+            <h3><span id="message"></span></h3>
+            <a href="Login.html" class="forgotpassreg">Ya tienes una cuenta? Inicia Sesión Aquí</a> 
         </div>
     </div>
+    
 
  <!-- CAJA DEL FOOTER -->
 
@@ -83,6 +85,8 @@
     </div>
 
 </footer>
+
+<script src="js/Registro.js"></script>
 
 </body>
 </html>
