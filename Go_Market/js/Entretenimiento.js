@@ -200,10 +200,6 @@ function eliminarDelCarrito(id) {
     actualizarCarritoUI();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  crearTarjetas();
-  actualizarCarritoUI();
-});
 
 document.addEventListener("DOMContentLoaded", () => {
     crearTarjetas();

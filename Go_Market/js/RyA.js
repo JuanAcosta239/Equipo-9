@@ -202,11 +202,6 @@ function eliminarDelCarrito(id) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  crearTarjetas();
-  actualizarCarritoUI();
-});
-
-document.addEventListener("DOMContentLoaded", () => {
     crearTarjetas();
     const tarjetas = document.querySelectorAll('.tarjeta');
     tarjetas.forEach((tarjeta, index) => {

@@ -203,6 +203,7 @@ function eliminarDelCarrito(id) {
     actualizarCarritoUI();
 }
 
+
 document.addEventListener("DOMContentLoaded", () => {
   crearTarjetas();
   const tarjetas = document.querySelectorAll('.tarjeta');
